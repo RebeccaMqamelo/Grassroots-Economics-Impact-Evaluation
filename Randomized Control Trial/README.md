@@ -1,3 +1,5 @@
+# It Takes a Village: Experimental Evidence on the Impact of Community Currency Transfers in Kenya
+
 This document outlines the Python code for implementing a Randomized Control Trial (RCT) aimed at understanding the impact of Community Currencies (CCs) as an effective form of Unconditional Cash Transfer (UCT). 
 
 
@@ -26,5 +28,3 @@ This study has two location arms: urban (Nairobi) and rural (Kwale). In each loc
 * Makes a sale at least 1x per week on average
 
 To select the appropriate treatment size in each community, a power test is performed for a 95% confidence interval. The number produced by this test is then fed into a random selector for each community which splits eligible wallets into treatment and control.
-
-**Treatment period snapshots**
